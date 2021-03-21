@@ -153,6 +153,8 @@ input:focus {
   font-weight: 300;
 }
 
+
+
 /* Responsive */
 @media (max-width: 800px) {
   .shopping-cart {
@@ -214,4 +216,50 @@ input:focus {
 	display: inline-block;
 	
 }
+
+/*Michelles CSS*/
+
+/*FAQ Container*/
+.container-fluid1 {
+    width: 50%;
+	margin: auto;
+}
+
+
+.accordion {
+    padding: 10px 10px;
+    border: 2px solid #067CA8;
+    width: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.accordion .icon {
+    margin: 0 30px 0 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2020E5 no-repeat 7px 8px;
+    float: left;
+    transition: all .5s ease-in;
+}
+
+.panel {
+    padding: 0 15px;
+    border-left: 1px solid blue;
+    margin-left: 25px;
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 300px;
+    transition: all .5s ease-in;
+}
+
+
+
+
+
 
