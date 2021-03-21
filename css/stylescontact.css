@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+     * { margin: 0; padding: 0; border: 0; font-size: 100%; }
+
+body {
+	background-image:url("../../../Week 4/prj4-chapter-4/images/flowers.jpg")
+		
+}
+.class-1 {
+    color: #CBAACB;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 4;
+    background-color: #ABDEE6;
+    font-weight: 900;
+	font-family: 'Anton', sans-serif;
+}
+
+.class-2 {
+    text-align: center;
+	
+}
+
+.class-3 {
+	background-color: aqua;
+	text-align: center
+	
+}
