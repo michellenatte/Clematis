@@ -6,6 +6,35 @@ body {
 	background: #c8e4ff 
 }
 
+.banner {
+	text-align: inherit;
+}
+
+.logo {
+	display: inline-block;
+	height: 175px;
+	
+}
+
+.banner-quote {
+	display: inline-block;
+	text-align: center;
+	font-family: "sirin-stencil";
+	margin-top: 50px;
+	
+}
+
+.cart-icon {
+	display: inline-block;
+	height: 80px;
+	float: right;
+	text-align: right;
+	margin-top: 50px;
+	margin-right:20px;
+	margin-left: 20px;
+	
+}
+
 .footer {
 	text-align: inherit;
 	display: inline-block;
