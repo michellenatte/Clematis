@@ -6,6 +6,7 @@ body {
 	background: #c8e4ff 
 }
 
+/* banner starts here */
 .banner {
 	text-align: inherit;
 }
@@ -32,7 +33,9 @@ body {
 	text-align: right;
 	margin: 50px 20px;
 }
+/* banner ends here */
 
+/*shopp filter starts here*/
 .container {
   overflow: hidden;
 }
@@ -78,13 +81,26 @@ body {
     text-align: center;
     background: #F8F9FA;
 }
+/* shop filter ends here */
+
+vision {
+	width: 500px;
+	
+}
+
+h2 {
+	font-family: "sirin-stencil";
+	font-style: italic;
+	text-align: center;
+	padding: 20px;
+	border: solid 2px #CED4DA;
+	
+}
 
 .footer {
 	text-align: inherit;
 	display: inline-block;
-	
 }
-
 
 /*Michelles CSS*/
 
