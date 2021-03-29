@@ -10,17 +10,22 @@
 </head>
 	<body>
 <!-- banner starts here -->
-		<div class="container-fluid banner">
-			<div class="row">
-
-				<div class="col-xs-8">
-					<h1 class="banner-quote">Contact Page</h1>
-				</div>
-			</div>
+<div class="container-fluid, banner">
+	<div class="row">
+		<div class="col-xs-2">
+			<img src="images/Tekengebied1.png" alt="Clematis logo" class="logo"/>
 		</div>
+		<div class="col-xs-8">
+			<h1 class="banner-quote">inspirational quote</h1>
+		</div>
+		<div class="col-xs-2">
+			<img src="images/shopping-cart.png" class="cart-icon" alt="shopping-cart">
+		</div>
+	</div>
+</div>
 	<!-- banner ends here --> 
 	
-	<!-- navbar starts here - NOTE! MAKE THE NAVBAR FIXED POSITION ON THE SCREEN! -->
+	<!-- navbar starts here -  -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -32,7 +37,7 @@
 				<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">About us</a>
+				<a class="nav-link" href="about.html">About us</a>
 			  </li>
 			  <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -50,8 +55,8 @@
 				  Other
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				  <a class="dropdown-item" href="#">Contact</a>
-				  <a class="dropdown-item" href="#">Etc.</a>
+				  <a class="dropdown-item" href="contactpage.html">Contact</a>
+				  <a class="dropdown-item" href="FAQ.html">FAQ</a>
 				  <div class="dropdown-divider"></div>
 				  <a class="dropdown-item" href="#">Etc.</a>
 				</div>
@@ -64,16 +69,18 @@
 		  </div>
 		</nav>
 	<!-- navbar ends here -->
-<section class="main-container"> 
+<section class="section-container"> 
 	<h2> Contact us! </h2>
 </section>
 
-		<p>If you have any questions, feel free to contact us!</p>
-		<p> We are happy to answer your questions or help with any other problem </p>
+		
 		
 <section>
+	<h2>If you have any questions, feel free to contact us!<br>
+		 We are happy to answer your questions or help with any other problem 
+	</h2>
 		<div class="container"> 
-		<form action="">
+		<form action="enterinfo">
 			
 			<div class="form-group">
 			<label for="FirstName"> First Name </label>
@@ -103,8 +110,76 @@
 		
 		
 		</section>
-	</body>
-<script src="js/jquery-3.6.0.slim.min.js"></script>
+ <!--=================================================================================================================================-->
+			<footer>
+		<table class="es-footer" >
+			<tbody>
+				<tr>
+					<td class="esd-stripe">
+						<table class="es-footer-body">
+							<tbody>
+								<tr>
+									<td class="esd-structure es-p40t es-p40b es-p20r es-p20l">
+										<table class="es-left"  >
+											<tbody>
+												<tr>
+													<td class="es-m-p20b esd-container-frame">
+														<table  >
+															<tbody>
+																<tr>
+																	<td class="esd-block-image es-m-txt-c" style="font-size:0" ><a target="_blank" href="index.html"><img src="images/clematislogonew.png" alt="logo" style="display: block;" width="150"></a></td>
+																</tr>
+																<tr>
+																	<td class="esd-block-social es-p20t es-m-txt-c" style="font-size:0">
+																		<table class="es-table-not-adapt es-social"  >
+																			<tbody>
+																				<tr>
+																					<td class="es-p10r" ><a target="_blank" href="#"><img src="images/facebooklogowhite.png" alt="Fb" title="Facebook" width="32"></a></td>
+																					<td class="es-p10r" ><a target="_blank" href="#"><img src="images/twitterlogowhite.png" alt="Tw" title="Twitter" width="32"></a></td>
+																					<td class="es-p10r" ><a target="_blank" href="#"><img src="images/youtubelogowhite.png" alt="Yt" title="Youtube" width="32"></a></td>
+																					<td class="es-p10r" ><a target="_blank" href="#"><img src="images/instagramlogowhite.png" alt="Ig" title="Instagram" width="32"></a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+												</tr>
+											</tbody>
+										  </table>
+										<table class="es-right">
+											<tbody>
+												<tr>
+													<td class="esd-container-frame" >
+														<table >
+															<tbody>
+																<tr>
+																	<td class="esd-block-text es-m-txt-c es-p20t es-p20b" >
+																	  <div class ="footer copyright">Clematis &copy; </div>
+																		<p>You can find us on these pages, we will welcome you with wide arms and open hearts.</p>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		  </table>
+		  </footer>
+		   <!--=================================================================================================================================-->
+		   <script src="js/jquery-3.6.0.slim.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+
 
 </html>
