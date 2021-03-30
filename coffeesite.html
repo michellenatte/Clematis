@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+			<title>Web Shop</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/confirmation.css">
+		
+    </head>
+
+	<body>
+		<!-- banner starts here -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-2">
+					<img src="images/Tekengebied1.png" alt="Clematis logo" class="logo"/>
+				</div>
+				<div class="col-xs-8">
+					<h1 class="banner-quote">inspirational quote</h1>
+				</div>
+				<div class="col-xs-2">
+					<img src="images/shopping-cart.png" class="cart-icon" alt="shopping-cart">
+				</div>
+			</div>
+		</div>
+	<!-- banner ends here --> 
+		<!-- navbar starts here -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="about.html">About us</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Shop<span class="sr-only">(current)</span>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="shop.html">Tea</a>
+					  <a class="dropdown-item" href="shop.html">Coffee</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="#">Sale/New</a>
+					</div>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownOther" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Other
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="contactpage.html">Contact</a>
+					  <a class="dropdown-item" href="FAQ.html">FAQ</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="#">Etc.</a>
+					</div>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled (for when you are already on that page)</a>
+				  </li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+				  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			  </div>
+			</nav>
+	<!-- navbar ends here -->
+		<!-- filter starts here --> 
+		 <!-- Control buttons -->
+		<div id="myBtnContainer">
+			<a class="btn" href="shop.html" role="button">Show all</a> 
+		    <a class="btn" href="shop.html" role="button">Coffee</a> 
+			<a class="btn" href="shop.html" role="button">Tea</a> 
+		</div>
+
+		<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+		<div class="container">
+		  <div class="filterDiv cars">BMW</div>
+		  <div class="filterDiv colors fruits">Orange</div>
+		  <div class="filterDiv cars">Volvo</div>
+		  <div class="filterDiv colors">Red</div>
+		  <div class="filterDiv cars animals">Mustang</div>
+		  <div class="filterDiv colors">Blue</div>
+		  <div class="filterDiv animals">Cat</div>
+		  <div class="filterDiv animals">Dog</div>
+		  <div class="filterDiv fruits">Melon</div>
+		  <div class="filterDiv fruits animals">Kiwi</div>
+		  <div class="filterDiv fruits">Banana</div>
+		  <div class="filterDiv fruits">Lemon</div>
+		  <div class="filterDiv animals">Cow</div>
+		</div> 
+	<!-- filter ends here -->
+		<!-- Card Starts here -->	
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div class="card"  style="width: 19rem;">
+					  <img class="card-img-top" src="images/coffeecup.png" alt="coffee">
+					  <div class="card-body">
+						<h5 class="card-title">Clematis Coffee</h5>
+						<p class="card-text">Made out of Clematis for relaxation </p>
+						  <p> <strong>$4.00</strong> </p>
+						  
+					 
+						<a href="cart.html" class="btn">Add to cart</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="card" style="width: 19rem;">
+					  <img class="card-img-top" src="..." alt="tea">
+					  <div class="card-body">
+						<h5 class="card-title">Clematis Tea</h5>
+						<p class="card-text">xx </p>
+						  <p> <strong>$4.00</strong> </p>
+						  
+					 
+						<a href="cart.html" class="btn">Add to cart</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="card" style="width: 19rem;">
+					  <img class="card-img-top" src="..." alt="tea">
+					  <div class="card-body">
+						<h5 class="card-title">Clematis Tea</h5>
+						<p class="card-text">xx </p>
+						  <p> <strong>$4.00</strong> </p>
+						  
+					 
+						<a href="cart.html" class="btn">Add to cart</a>
+						  
+					  </div>
+					</div>	
+				</div> 
+			</div> 
+		</div>
+		
+	</body>
+</html>
