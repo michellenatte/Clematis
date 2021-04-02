@@ -16,7 +16,8 @@
 
 	<title>Clematis Contact</title>
 </head>
-	<body class="ctp">
+<body class="ctp">
+	
 <!-- Logo start -->	
 <div class="container-fluid logo">
 	<img src="images/header-t.png" class="img-fluid mx-auto d-block"  alt="clematis logo"/>
@@ -72,55 +73,51 @@
 	<h5>If you have any questions, feel free to contact us!<br>
 		 We are happy to answer your questions or help with any other problem 
 	</h5>
-
 </section>
 
 	
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-lg-6">
-<!-- form starts here -  -->
-	<div class="container form"> 
+		<!-- form starts here -  -->
+			<div class="container form"> 
+				<div class="container"> 
+					<form action="enterinfo">
 
-	<h2>If you have any questions, feel free to contact us!<br>
-		 We are happy to answer your questions
-  </h2>
-		<div class="container"> 
+					<div class="form-group">
+					<label for="FirstName"> <h5>First Name</h5> </label>
+					<input type="text" id="FirstName" name="FirstName">
+					</div>
 
-		<form action="enterinfo">
-			
-			<div class="form-group">
-			<label for="FirstName"> <h5>First Name</h5> </label>
-			<input type="text" id="FirstName" name="FirstName">
+					<div class="form-group">
+					<label for="LastName"> <h5>Last Name</h5> </label>
+					<input type="text" id="LastName" name="LastName">
+					</div>
+
+					<div class="form-group">
+					<label for="E-mail"> <h5>E-mail</h5> </label>
+					<input type="text" id="E-mail" name="E-mail">
+					</div>
+
+					<div class="form-group">
+					<label for="MyMessage"> <h5>My Message</h5> </label>
+					<p><textarea name="MyMessage" id="MyMessage" cols="30" rows="10">
+					</textarea></p>
+					</div>
+
+					<button class="submit" type="submit"> submit </button>
+					</form>
+				</div>
 			</div>
-			
-			<div class="form-group">
-			<label for="LastName"> <h5>Last Name</h5> </label>
-			<input type="text" id="LastName" name="LastName">
-			</div>
-			
-			<div class="form-group">
-			<label for="E-mail"> <h5>E-mail</h5> </label>
-			<input type="text" id="E-mail" name="E-mail">
-			</div>
-			
-			<div class="form-group">
-			<label for="MyMessage"> <h5>My Message</h5> </label>
-			<p><textarea name="MyMessage" id="MyMessage" cols="30" rows="10">
-			</textarea></p>
-			</div>
-			
-			<button class="submit" type="submit"> submit </button>
-		</form>	
-<!-- form starts here -  -->	  
-	</div>
-		</div>
-		<div class="col-lg-6 wsw">
+		<!-- form starts here -  -->	  
+		</div>	
+		<div class="col-lg-6">
 			 <img src="images/girl-calling.jpg" class="img-fluid encourage" alt="encourage"/>
-		</div>
+		</div>	
 	</div>
 </div>
-		
+
+				
 
  <!--=================================================================================================================================-->
 		
@@ -153,7 +150,6 @@
 <!--=================================================================================================================================-->
 		   <script src="js/jquery-3.6.0.slim.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-	</body>
-
-
+	
+</body>
 </html>
