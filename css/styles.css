@@ -1,80 +1,31 @@
 @charset "utf-8";
-
 * { margin: 0; padding: 0; border: 0; font-size: 100%; }
+
+/*light blue: #c8e4ff
+  dark green: #33665c
+ light green: #33ac5c
+*/
 
 body {
 	background: #c8e4ff 
 }
 
+h1, h2, h3, a {
+	font-family: 'Merriweather Sans', sans-serif; 
+}
+
 /* banner starts here */
-.banner {
-	text-align: inherit;
-}
 
-.logo {
-	display: inline-block;
-	height: 175px;
-	
-}
-
-.banner-quote {
-	display: inline-block;
-	text-align: center;
-	font-family: "sirin-stencil";
-	font-style: italic;
-	margin-top: 60px;
-	
-}
-
-.cart-icon {
-	display: inline-block;
-	height: 70px;
-	float: right;
-	text-align: right;
-	margin: 50px 20px;
-}
-/* banner ends here */
-
-/*shopp filter starts here*/
-.container {
-  overflow: hidden;
-}
-
-.filterDiv {
-  float: left;
-  background-color: #2196F3;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
-  display: none; /* Hidden by default */
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
-/* Style the buttons */
-.btn {
-  border: solid 1px #CED4DA;
-  outline: none;
-  padding: 12px 16px;
-  background-color: #FFFFFF;
-  cursor: pointer;
-	margin: 0 20px;
-}
 
 /* Add a light grey background on mouse-over */
-.btn:hover {
-  background-color: #ddd;
+.btn hover {
+  color: #33665c;
 }
 
 /* Add a dark background to the active button */
 .btn.active {
-  background-color: #666;
-  color: white;
+  background-color: #33665c;
+  color: #33665c;
 }
 
 #myBtnContainer {
