@@ -28,6 +28,14 @@ h2, h3, h4, h5, h6, a {
 	margin-top: 50px;
 }
 
+.just img{
+	width: 50px;
+	height: 50px;
+	float: center;
+}
+.col-xl-5{
+	margin:auto;
+}
 .foot-img{
 	width: 180px;
 	margin: 0px 110px;
@@ -37,8 +45,8 @@ h2, h3, h4, h5, h6, a {
 /*general css*/
 
 /*index starts here*/
-.esd-block-image img {
-	width: 150px;
+.indx h1 {
+	color: white;
 }
 
 /* Add a light grey background on mouse-over */
