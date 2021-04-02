@@ -5,17 +5,41 @@
   dark green: #33665c
  light green: #33ac5c
 */
-
+/*general css*/
 body {
 	background: #c8e4ff 
 }
-
-h1, h2, h3, a {
-	font-family: 'Merriweather Sans', sans-serif; 
+h1 {
+	font-family: 'Staatliches', cursive;
 }
 
-/* banner starts here */
+h2, h3, h4, h5, h6, a {
+	font-family: 'Merriweather Sans', sans-serif; 
+}
+/*start footer*/
+#footer {
+	background-color: #33665c;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 20px;
+}
+.icons {
+	margin-left: 100px;
+	margin-top: 50px;
+}
 
+.foot-img{
+	width: 180px;
+	margin: 0px 110px;
+	padding-top: 20px;
+}
+/*end footer*/
+/*general css*/
+
+/*index starts here*/
+.esd-block-image img {
+	width: 150px;
+}
 
 /* Add a light grey background on mouse-over */
 .btn hover {
@@ -36,21 +60,6 @@ h1, h2, h3, a {
 
 vision {
 	width: 500px;
-	
-}
-
-h2 {
-	font-family: "sirin-stencil";
-	font-style: italic;
-	text-align: center;
-	padding: 20px;
-	border: solid 2px #CED4DA;
-	
-}
-
-.footer {
-	text-align: inherit;
-	display: inline-block;
 }
 
 /*Michelles CSS*/
@@ -108,3 +117,54 @@ h2 {
   cursor: pointer; 
   text-decoration:none; 
 } 
+
+/*starts contact page css*/
+.ctp h1 {
+	text-align: center;
+	padding: 30px 0px;
+}
+
+.ctp h5 {
+	text-align: center;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+.section-container {
+	background-color: #33665c;
+	color: white;
+}
+.submit {
+	background-color: #33ac5c;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+	padding: 2px 2px 0px 2px;
+	font-family: 'Merriweather Sans', sans-serif; 
+}
+
+.submit:hover {
+	background-color: #33665c;
+	color: white;
+}
+
+.btn-lg {
+	color: #33665c;
+	
+}
+#MyMessage {
+	width: 500px;
+} 
+
+#E-mail{
+	width: 335px;
+}
+
+#LastName {
+	width: 300px;
+}
+
+#FirstName {
+	width: 300px;	
+}
+/*end contact page css*/
