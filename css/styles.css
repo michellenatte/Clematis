@@ -5,17 +5,49 @@
   dark green: #33665c
  light green: #33ac5c
 */
-
+/*general css*/
 body {
 	background: #c8e4ff 
 }
-
-h1, h2, h3, a {
-	font-family: 'Merriweather Sans', sans-serif; 
+h1 {
+	font-family: 'Staatliches', cursive;
 }
 
-/* banner starts here */
+h2, h3, h4, h5, h6, a {
+	font-family: 'Merriweather Sans', sans-serif; 
+}
+/*start footer*/
+#footer {
+	background-color: #33665c;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 20px;
+}
+.icons {
+	margin-left: 100px;
+	margin-top: 50px;
+}
 
+.just img{
+	width: 50px;
+	height: 50px;
+	float: center;
+}
+.col-xl-5{
+	margin:auto;
+}
+.foot-img{
+	width: 180px;
+	margin: 0px 110px;
+	padding-top: 20px;
+}
+/*end footer*/
+/*general css*/
+
+/*index starts here*/
+.indx h1 {
+	color: white;
+}
 
 /* Add a light grey background on mouse-over */
 .btn hover {
@@ -36,21 +68,6 @@ h1, h2, h3, a {
 
 vision {
 	width: 500px;
-	
-}
-
-h2 {
-	font-family: "sirin-stencil";
-	font-style: italic;
-	text-align: center;
-	padding: 20px;
-	border: solid 2px #CED4DA;
-	
-}
-
-.footer {
-	text-align: inherit;
-	display: inline-block;
 }
 
 /*Michelles CSS*/
@@ -109,43 +126,53 @@ h2 {
   text-decoration:none; 
 } 
 
-.container {
-    border-radius: 8px;
-    width: 50%;
-    -webkit-box-shadow: 0px 0px 20px;
-    box-shadow: 0px 0px 5px;
-    align-items: center;
+/*starts contact page css*/
+.ctp h1 {
+	text-align: center;
+	padding: 30px 0px;
 }
 
-.form-group {
-    width: 100%;
-    margin-top: 15px;
-    font-size: 15px;	
+.ctp h5 {
+	text-align: center;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
 }
 
-.form-group textarea {
-	width: 100%;
+.section-container {
+	background-color: #33665c;
+	color: white;
+}
+.submit {
+	background-color: #33ac5c;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+	padding: 2px 2px 0px 2px;
+	font-family: 'Merriweather Sans', sans-serif; 
+}
+
+.submit:hover {
+	background-color: #33665c;
+	color: white;
+}
+
+.btn-lg {
+	color: #33665c;
 	
-	
-	
+}
+#MyMessage {
+	width: 500px;
+} 
+
+#E-mail{
+	width: 335px;
 }
 
-.form-group input {
-	width: 100%;
-	padding: 5px;	
+#LastName {
+	width: 300px;
 }
 
-button[type="submit"]{
-    width: 50%;
-    padding: 5px;
-    font-size: 15px;
-    text-align: center;
-    cursor: pointer;
-    background-color: #CED4DA;
-    text-transform: capitalize;	
+#FirstName {
+	width: 300px;	
 }
-
-
-.class2 {
-    text-align: center;
-}
+/*end contact page css*/
