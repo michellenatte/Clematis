@@ -48,6 +48,18 @@ h2, h3, h4, h5, h6, a {
 .indx h1 {
 	color: white;
 }
+/*index ends here*/
+
+/*about starts here*/
+.values {
+	text-align: center;
+}
+
+.values h1 {
+	font-size: 350%;
+}
+/*about starts here*/
+
 
 /* Add a light grey background on mouse-over */
 .btn hover {
@@ -66,18 +78,15 @@ h2, h3, h4, h5, h6, a {
 }
 /* shop filter ends here */
 
-vision {
-	width: 500px;
-}
+
 
 /*Michelles CSS*/
 
-/*FAQ Container*/
+/*FAQ starts here*/
 .container-fluid1 {
     width: 50%;
 	margin: auto;
 }
-
 
 .accordion {
     padding: 10px 10px;
@@ -125,6 +134,7 @@ vision {
   cursor: pointer; 
   text-decoration:none; 
 } 
+/*FAQ ends here*/
 
 /*starts contact page css*/
 .ctp h1 {
