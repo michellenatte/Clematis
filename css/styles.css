@@ -108,3 +108,44 @@ h2 {
   cursor: pointer; 
   text-decoration:none; 
 } 
+
+.container {
+    border-radius: 8px;
+    width: 50%;
+    -webkit-box-shadow: 0px 0px 20px;
+    box-shadow: 0px 0px 5px;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 15px;	
+}
+
+.form-group textarea {
+	width: 100%;
+	
+	
+	
+}
+
+.form-group input {
+	width: 100%;
+	padding: 5px;	
+}
+
+button[type="submit"]{
+    width: 50%;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #CED4DA;
+    text-transform: capitalize;	
+}
+
+
+.class2 {
+    text-align: center;
+}
