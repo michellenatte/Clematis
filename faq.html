@@ -1,27 +1,26 @@
 <!doctype html>
 <html lang="en">
-<head>
+	<head>
 <!-- meta, first charset, then viewport -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- stylesheets, first bootstrap, then own -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
-
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
 
 <!--google fonts -->		
-	<link rel="preconnect" href="https://fonts.gstatic.com"> 
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
 
-	<link rel="preconnect" href="https://fonts.gstatic.com"> 
-	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-<title>FAQ</title>
-  </head>
+		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+		<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+		<title>FAQ</title>
+	</head>
 	
-<body class="faq">
+	<body class="faq">
 <!-- Logo start -->	
-	<div class="container-fluid logo">
+		<div class="container-fluid logo">
 		<img src="images/header-t.png" class="img-fluid mx-auto d-block"  alt="clematis logo"/>
 	</div>
 <!-- Logo end -->
@@ -70,57 +69,78 @@
 <!-- navbar ends here -->	
 	
 <!--FAQ starts here-->
-	<h1> Got any questions? We are here to answer!</h1>
-	<h6> If you don't see your question, feel free to send us a message at our contact page. </h6>
+		<h1> Got any questions? We are here to answer!</h1>
+		<h6> If you don't see your question, feel free to send us a message at our contact page. </h6>
 		<h3> Frequently&nbsp; Asked Questions (FAQ):</h3>	
-	
-<div class="container-fluid">	
-<button class="accordion">What is "Clematis"?</button>
-<div class="panel">
-  <p>Clematis is a Brand that focuses on helping people with stress and troubles of their daily life. We want to give our users a possibility to sit down and relax by drinking our tea and coffee products.
-</p>
-</div>
+		
+		<div class="container-fluid">
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<button class="accordion">What is "Clematis"?</button>
+					<div class="panel">
+					  <p>Clematis is a Brand that focuses on helping people with stress and troubles of their daily life. We want to give our users a possibility to sit down and relax by drinking our tea and coffee products.
+					</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<button class="accordion">How was Clematis founded?</button>
+					<div class="panel">
+					  <p>Four managers who used to always get burn-outs were tired of being stressed all the time and seeing their colleagues and friends suffer under work pressure, life pressure, social obligations, etc. We wanted to remind the people that there is nothing more important in your life then yourself. So in order to make people take their well deserved breaks, we decided to create this brand and it's relaxing products.
+					</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<button class="accordion">What does "Clematis" mean?</button>
+					<div class="panel">
+					  <p>"Clematis" is "a climbing plant of the buttercup family which bears white, pink, or purple flowers and feathery seeds. Several kinds are cultivated as ornamentals."
+					</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<button class="accordion">What is special about Clematis?</button>
+					<div class="panel">
+					  <p>Clematis is more then just a tea or coffee brand. We really care about people's mental healths and are constantly working on expanding our business by adding workshops, mindfullness videos, a forum, etc. There is so much more coming!
+					</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<button class="accordion">Where do the products come from?</button>
+					<div class="panel">
+					  <p>Our Tea and Coffee is fair-trade from the beautiful countries Brasil, Honduras, Columbia and Indonesia.</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+		
+		<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
 
-<button class="accordion">How was Clematis founded?</button>
-<div class="panel">
-  <p>Four managers who used to always get burn-outs were tired of being stressed all the time and seeing their colleagues and friends suffer under work pressure, life pressure, social obligations, etc. We wanted to remind the people that there is nothing more important in your life then yourself. So in order to make people take their well deserved breaks, we decided to create this brand and it's relaxing products.
-</p>
-</div>
-
-<button class="accordion">What does "Clematis" mean?</button>
-<div class="panel">
-  <p>"Clematis" is "a climbing plant of the buttercup family which bears white, pink, or purple flowers and feathery seeds. Several kinds are cultivated as ornamentals."
-</p>
-</div>
-
-<button class="accordion">What is special about Clematis?</button>
-<div class="panel">
-  <p>Clematis is more then just a tea or coffee brand. We really care about people's mental healths and are constantly working on expanding our business by adding workshops, mindfullness videos, a forum, etc. There is so much more coming!
-</p>
-</div>
-
-<button class="accordion">Where do the products come from?</button>
-<div class="panel">
-  <p>Our Tea and Coffee is fair-trade from the beautiful countries Brasil, Honduras, Columbia and Indonesia.</p>
-</div>
-</div>	
-	
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-</script>
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		if (panel.style.display === "block") {
+		  panel.style.display = "none";
+		} else {
+		  panel.style.display = "block";
+		}
+	  });
+	}
+	</script>
 <!--FAQ ends here-->
 	
 <!--footer starts here-->
@@ -143,10 +163,10 @@ for (i = 0; i < acc.length; i++) {
 <!--footer ends here-->		
 	
 	
-	<script src="js/jquery-3.6.0.slim.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/jquery-3.6.0.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
 
 
 	
-</body>
+	</body>
 </html>
