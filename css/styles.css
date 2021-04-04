@@ -153,8 +153,6 @@ h2, h3, h4, h5, h6, a {
 	padding: 2px 2px 0px 2px;
 	font-family: 'Merriweather Sans', sans-serif; 
 	width: 100%;
-	
-	
 }
 
 .submit:hover {
@@ -164,7 +162,6 @@ h2, h3, h4, h5, h6, a {
 
 .btn-lg {
 	color: #33665c;
-	
 }
 #MyMessage {
 	width: 100%;
@@ -172,9 +169,7 @@ h2, h3, h4, h5, h6, a {
 
 #E-mail{
 	width: 100%;
-	padding: 5px;
-	
-		
+	padding: 5px;	
 }
 
 #LastName {
