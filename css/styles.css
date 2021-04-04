@@ -5,17 +5,49 @@
   dark green: #33665c
  light green: #33ac5c
 */
+
 /*start general css*/
 body {
 	background: #c8e4ff 
 }
-h1 {
+h1 {	
 	font-family: 'Staatliches', cursive;
+	font-size: 28px;
+    font-style: normal;
+    font-weight: bold;
+    color: #262626;
 }
 
 h2, h3, h4, h5, h6, a {
 	font-family: 'Merriweather Sans', sans-serif; 
 }
+
+
+h2 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: #262626;
+}
+
+h3 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    color: #888888;
+    letter-spacing: 0px;
+}
+/* start nav*/
+.current-link {
+	color: white;	
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/*end nav*/
+
 /*start footer*/
 #footer {
 	background-color: #33665c;
@@ -56,6 +88,14 @@ h2, h3, h4, h5, h6, a {
 	margin-bottom: 30px;
 }
 
+.card {
+	width: 18rem;
+}
+
+.card-img-top {
+	height: 250px;
+}
+
 .fom {
 	background-color: #33665c;
 	border-color: #33665c;
@@ -79,7 +119,7 @@ h2, h3, h4, h5, h6, a {
 /*about starts here*/
 
 
-/* Add a light grey background on mouse-over */
+/* Add a green background on mouse-over */
 .btn hover {
   color: #33665c;
 }
@@ -254,10 +294,10 @@ a[x-apple-data-detectors] {
 /*
 END OF IMPORTANT
 */
+
 html,
 body {
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
@@ -299,16 +339,6 @@ table tr {
 p,
 hr {
     Margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    Margin: 0;
-    line-height: 120%;
-    font-family: Oswald, sans-serif;
 }
 
 p,
@@ -501,13 +531,6 @@ a {
     text-decoration: underline;
 }
 
-p,
-ul li,
-ol li {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 150%;
-}
-
 ul li,
 ol li {
     Margin-bottom: 15px;
@@ -583,20 +606,9 @@ ol li {
     color: rgb(0, 0, 0);
     font-size: 12px;
 }
-body {
-    background: #c8e4ff
-}
 
 .rounded {
     border-radius: 1rem
-}
-
-.nav-pills .nav-link {
-    color: #555
-}
-
-.nav-pills .nav-link.active {
-    color: white
 }
 
 input[type="radio"] {
@@ -623,28 +635,6 @@ input[type="radio"] {
 .es-infoblock a {
     font-size: 16px;
     color: #ffffff;
-}
-
-h1 {
-    font-size: 28px;
-    font-style: normal;
-    font-weight: bold;
-    color: #262626;
-}
-
-h2 {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-    color: #262626;
-}
-
-h3 {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: bold;
-    color: #888888;
-    letter-spacing: 0px;
 }
 
 .es-header-body h1 a,
@@ -709,12 +699,6 @@ button.es-button {
     ol li,
     a {
         line-height: 150% !important;
-    }
-
-    h1 {
-        font-size: 28px !important;
-        text-align: left;
-        line-height: 120%;
     }
 
     h2 {
@@ -789,6 +773,12 @@ button.es-button {
     .es-infoblock ol li,
     .es-infoblock a {
         font-size: 14px !important;
+    }
+
+    h1 {
+        font-size: 28px !important;
+        text-align: left;
+        line-height: 120%;
     }
 
     *[class="gmail-fix"] {
