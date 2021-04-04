@@ -203,9 +203,16 @@ h2, h3, h4, h5, h6, a {
 	padding: 5px;
 }
 /*end contact page css*/
-/* Shop starts here*/
+/* justification starts here*/
 
-/* Shop ends here*/
+.evidence {
+	align-text: center;
+	
+		
+}
+
+
+/* justification ends here*/
 
 /*start cart  page css*/
 .img-cart {
