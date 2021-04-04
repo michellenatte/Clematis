@@ -47,6 +47,7 @@ h3 {
 	color: #FFFFFF;
 	text-align: center;
 	margin-top: 20px;
+	padding: 15px 0px
 }
 
 .footer {
@@ -75,7 +76,7 @@ h3 {
 /*end general css*/
 
 /*index starts here*/
-.indx footer h1 {
+footer h1 {
 	color: white;
 	text-align: center;
 }
@@ -134,7 +135,11 @@ h3 {
 
 #myBtnContainer {
     text-align: center;
-    background: #F8F9FA;
+    background: #33665c;
+	margin-top: 10px
+}
+.filter a{
+	color: white;
 }
 /* shop filter ends here */
 
@@ -143,7 +148,7 @@ h3 {
 /*FAQ starts here*/
 .faq h1, h3, h6{
 	text-align: center;
-	margin-bottom: 10px;
+	margin: 20px 0px;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -180,6 +185,7 @@ h3 {
 /*starts contact page css*/
 .ctp h1 {
 	text-align: center;
+	color: white;
 }
 .ctp h5 {
 	text-align: center;
@@ -188,6 +194,7 @@ h3 {
 .section-container {
 	background-color: #33665c;
 	color: white;
+	padding: 20px 0px;
 }
 .submit {
 	background-color: #33ac5c;
