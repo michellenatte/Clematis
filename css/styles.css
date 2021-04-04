@@ -41,12 +41,19 @@ h2, h3, h4, h5, h6, a {
 /*end general css*/
 
 /*index starts here*/
-.indx h1 {
+.indx footer h1 {
 	color: white;
+	text-align: center;
+}
+
+.bestseller h1 {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: xx-large;
 }
 
 .carousel-slide {
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 }
 /*index ends here*/
 
