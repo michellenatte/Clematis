@@ -22,7 +22,6 @@ h2, h3, h4, h5, h6, a {
 	font-family: 'Merriweather Sans', sans-serif; 
 }
 
-
 h2 {
     font-size: 20px;
     font-style: normal;
@@ -37,14 +36,8 @@ h3 {
     color: #888888;
     letter-spacing: 0px;
 }
+
 /* start nav*/
-.current-link {
-	color: white;	
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 10px;
-	text-align: center;
-}
 
 /*end nav*/
 
@@ -54,6 +47,14 @@ h3 {
 	color: #FFFFFF;
 	text-align: center;
 	margin-top: 20px;
+}
+
+.footer {
+	margin-top: 20px;
+}
+
+.footer-bottom {
+	margin-bottom: 20px;
 }
 
 .just img{
@@ -70,6 +71,7 @@ h3 {
 	padding-top: 5px;
 }
 /*end footer*/
+
 /*end general css*/
 
 /*index starts here*/
