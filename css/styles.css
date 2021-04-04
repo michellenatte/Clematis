@@ -55,6 +55,17 @@ h2, h3, h4, h5, h6, a {
 .carousel-slide {
 	margin-bottom: 30px;
 }
+
+.fom {
+	background-color: #33665c;
+	border-color: #33665c;
+	margin-top: 10px;
+}
+.fom:hover {
+	background-color: #33ac5c;
+	border-color: #33ac5c;
+
+}
 /*index ends here*/
 
 /*about starts here*/
