@@ -5,7 +5,7 @@
   dark green: #33665c
  light green: #33ac5c
 */
-/*general css*/
+/*start general css*/
 body {
 	background: #c8e4ff 
 }
@@ -42,7 +42,7 @@ h2, h3, h4, h5, h6, a {
 	padding-top: 20px;
 }
 /*end footer*/
-/*general css*/
+/*end general css*/
 
 /*index starts here*/
 .indx h1 {
