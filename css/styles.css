@@ -71,6 +71,15 @@ h3 {
 	margin: 0px 110px;
 	padding-top: 5px;
 }
+
+.footer-instagram {
+	color: white;
+	text-size: 26px;	
+}
+
+.footer-instagram:hover {
+	color: #c8e4ff;
+}
 /*end footer*/
 
 /*end general css*/
@@ -197,13 +206,14 @@ footer h1 {
 	padding: 20px 0px;
 }
 .submit {
+	text-transform: uppercase; 
+	color: white;
+	text-align: center;
+	padding: 20px;
 	background-color: #33ac5c;
-	border-style: solid;
-	border-color: black;
-	border-width: thin;
-	padding: 2px 2px 0px 2px;
 	font-family: 'Merriweather Sans', sans-serif; 
 	width: 100%;
+	font-size:  26px;
 }
 
 .submit:hover {
@@ -231,6 +241,27 @@ footer h1 {
 #FirstName {
 	width: 100%;	
 	padding: 5px;
+}
+
+.social-media {
+	display: block;
+	text-size: 26px;
+	text-transform: uppercase; 
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin: 50px;
+	background-color: #33ac5c;	
+}
+
+.social-media:hover {
+	display: block;
+	text-transform: uppercase; 
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin: 50px;
+	background-color: #33665c;
 }
 /*end contact page css*/
 /* justification starts here*/
