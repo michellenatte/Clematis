@@ -23,10 +23,6 @@ h2, h3, h4, h5, h6, a {
 	text-align: center;
 	margin-top: 20px;
 }
-.icons {
-	margin-left: 100px;
-	margin-top: 50px;
-}
 
 .just img{
 	width: 50px;
@@ -39,7 +35,7 @@ h2, h3, h4, h5, h6, a {
 .foot-img{
 	width: 180px;
 	margin: 0px 110px;
-	padding-top: 20px;
+	padding-top: 5px;
 }
 /*end footer*/
 /*end general css*/
